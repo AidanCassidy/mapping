@@ -31,6 +31,7 @@ df2
 names(providers)[1:5]
 
 SG_SIMD_2016 = readOGR("C:/Users/acassidy/Desktop/SG/statistics/shapes", "SG_SIMD_2016")
+# file too big to upload. download from SIMD website
 class(SG_SIMD_2016)
 head(SG_SIMD_2016, 1)
 SG_SIMD_2016 = spTransform(SG_SIMD_2016, CRS("+proj=longlat +ellps=GRS80"))
